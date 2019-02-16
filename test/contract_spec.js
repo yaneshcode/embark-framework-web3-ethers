@@ -37,9 +37,9 @@ contract("SimpleStorage", function () {
     let ethersKeccak = ethers.utils.keccak256(messageBytes); 
     let ether2 = ethers.utils.hashMessage(messageBytes);
     
-    console.log(web3Hash);
-    console.log(ethersHash);
-    console.log(ethersKeccak);
-    console.log(ether2);
+    console.log(web3Hash, "web3 sha3 hash");
+    console.log(ethersHash, "ethers hashMessage on string");
+    console.log(ethersKeccak, "ethers keccak256 on messageBytes");
+    console.log(ether2, "ethers hash on messageBytes");
   });
 })

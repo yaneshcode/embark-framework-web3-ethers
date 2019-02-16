@@ -62,5 +62,13 @@
         "address": "0x96Dbe07c7EB549714c98AbCcb5e3EbC1CdACf08e"
       }
     }
+  },
+  "0x36a20fbe979704a2e47e333429458f20f90ac16a4a18a474bd7dd00f47584695": {
+    "contracts": {
+      "0xf730d9ebf7bb31448722e66901232ef8a01f4d92160926bdb9cd3423d4bd03b5": {
+        "name": "SimpleDemo",
+        "address": "0x8575c3C75d8304e105331A03B4906f264F294342"
+      }
+    }
   }
 }
