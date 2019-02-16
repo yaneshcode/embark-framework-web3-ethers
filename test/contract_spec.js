@@ -1,6 +1,6 @@
 // /*global contract, config, it, assert*/
 var ethers = require('ethers');
-const SimpleStorage = require('Embark/contracts/SimpleStorage');
+const SimpleDemo = require('Embark/contracts/SimpleDemo');
 
 let accounts;
 
@@ -13,7 +13,7 @@ config({
   //  ]
   //},
   contracts: {
-    "SimpleStorage": {
+    "SimpleDemo": {
       args: [100]
     }
   }
@@ -24,7 +24,18 @@ config({
 contract("SimpleStorage", function () {
   this.timeout(0);
 
-  it("Should have ethersjs", async function() {
-    console.log(ethers);
+  it("Big Number Stuff", async function() {
+    console.log("whats up?");
+  });
+
+  it("Hashing function", async function() {
+    let web3Hash = web3.utils.sha3('234');
+    let ethersHash = ethers.utils.sha3('234');
+
+    let ethersKeccak = ethers.utils.keccak256(0x42);
+    
+    console.log(web3Hash);
+    console.log(ethersHash);
+    console.log(ethersKeccak);
   });
 })

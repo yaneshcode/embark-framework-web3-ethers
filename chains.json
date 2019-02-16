@@ -6,5 +6,29 @@
         "address": "0xeEaB1F6d765bdfEA64Aa443D49D4B25F8d395B48"
       }
     }
+  },
+  "0xc040bd0030127ba9d32b98a9c52cb842dbffeb586598b5e3badf71e52c24edeb": {
+    "contracts": {
+      "0xf730d9ebf7bb31448722e66901232ef8a01f4d92160926bdb9cd3423d4bd03b5": {
+        "name": "SimpleDemo",
+        "address": "0xC7f0Dd82E5051d2e20987c1C25415f36Bb6ad0De"
+      }
+    }
+  },
+  "0x27305e590afbd2c64935caaf5da0c15013075a1b64d7ca0ad4983002fbb56c0a": {
+    "contracts": {
+      "0xf730d9ebf7bb31448722e66901232ef8a01f4d92160926bdb9cd3423d4bd03b5": {
+        "name": "SimpleDemo",
+        "address": "0x652E9B0b936685BF5F6fa3E68d34046f59C5fa0F"
+      }
+    }
+  },
+  "0xd64be0a28682cc1aaef84a948e011ffe3c0ae70939fd5e3b32abf0b8588cba1a": {
+    "contracts": {
+      "0xf730d9ebf7bb31448722e66901232ef8a01f4d92160926bdb9cd3423d4bd03b5": {
+        "name": "SimpleDemo",
+        "address": "0x5383eaAF2bA7A9Fe74A5dd80816CcF2Db7d135dd"
+      }
+    }
   }
 }
