@@ -29,13 +29,17 @@ contract("SimpleStorage", function () {
   });
 
   it("Hashing function", async function() {
-    let web3Hash = web3.utils.sha3('234');
-    let ethersHash = ethers.utils.sha3('234');
+    let web3Hash = web3.utils.sha3('Hello World');
+    let ethersHash = ethers.utils.hashMessage('Hello World');
 
-    let ethersKeccak = ethers.utils.keccak256(0x42);
+    let message = 'Hello World';
+    let messageBytes = ethers.utils.toUtf8Bytes(message);
+    let ethersKeccak = ethers.utils.keccak256(messageBytes); 
+    let ether2 = ethers.utils.hashMessage(messageBytes);
     
     console.log(web3Hash);
     console.log(ethersHash);
     console.log(ethersKeccak);
+    console.log(ether2);
   });
 })
