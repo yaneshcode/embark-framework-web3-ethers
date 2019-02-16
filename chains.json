@@ -1,0 +1,10 @@
+{
+  "0xed80db9c1dd16594a085ac44486d4229fd33bfd0cadc12add3ddef55ad18de21": {
+    "contracts": {
+      "0x812a40ad335b86690b40574779268edea48b516e989c5647256c3650e6832a8e": {
+        "name": "SimpleDemo",
+        "address": "0xeEaB1F6d765bdfEA64Aa443D49D4B25F8d395B48"
+      }
+    }
+  }
+}

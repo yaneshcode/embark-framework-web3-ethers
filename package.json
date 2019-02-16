@@ -1,0 +1,17 @@
+{
+  "name": "Demo",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "embark test"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {},
+  "dependencies": {
+    "embark": "^3.2.7",
+    "ether": "0.0.9",
+    "ethers": "^4.0.25"
+  }
+}
